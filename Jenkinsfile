@@ -24,8 +24,8 @@ pipeline
       steps {
         echo "Getting Exploratory Testing Repo"
         git(
-        url:'git@github.com:ochoadevops/blue_green_deployment.git',
-        credentialsId: 'blue-green',
+        url:'git@github.com:ochoadevops/petclinic-blue-green.git',
+        credentialsId: 'blue-and-green',
         branch: "main"
         )
      }
