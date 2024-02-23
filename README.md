@@ -12,7 +12,7 @@
 <LI> Create a complete new BLUE Environment including:
     - Two public subnets
     - Routing tables for the subnets
-    - DNS Reord to switch between the Blue and Green ELBs
+    - DNS Record to switch between the Blue and Green ELBs
     - A Target Group to route requests from the load balancer to the EC2 instances
     - AutoScaling Group
     - AutoScaling Launch Configuration
@@ -44,7 +44,7 @@
   
 <H1>Assumptions:</H1>
 <UL>
-<LI>Terraform v0.14 is install on the Jenkins server
+<LI>Terraform v0.14 or later is install on the Jenkins server
 <LI>The Jenkins Server EC2 instance has an instance role with sufficient permission to provision AWS Resources 
 </UL>
   
