@@ -1,0 +1,9 @@
+BLUE/.autoscaling.tf.swp
+BLUE/.terraform/
+GREEN/.autoscaling.tf.swp
+GREEN/.terraform/
+production/.autoscaling.tf.swp
+production/.terraform/
+production/.terraform/plugins/linux_amd64/terraform-provider-aws_v2.70.0_x4
+**/.terraform/*
+.terraform/
