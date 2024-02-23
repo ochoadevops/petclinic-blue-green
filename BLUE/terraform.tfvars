@@ -8,3 +8,4 @@ project_domain = "ochoajenkins.com"
 environment = "BLUE"
 dns_record_identifier = "BLUE-GREEN"
 environment_weight = "100"
+
