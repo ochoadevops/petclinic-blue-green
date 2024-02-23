@@ -12,7 +12,7 @@ pipeline
     amiNameTagValue = "";
     thisTestNameVar = "";
     thisTestValue = "blue_green_deployment";
-    ProjectName = "01-Build";
+    ProjectName = "petclinic-spring";
     fileProperties = "file.properties"
     old_environment = "";
   }
@@ -26,7 +26,7 @@ pipeline
         git(
         url:'git@github.com:ochoadevops/blue_green_deployment.git',
         credentialsId: 'blue-green',
-        branch: "master"
+        branch: "main"
         )
      }
 
