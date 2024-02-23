@@ -27,7 +27,7 @@
 
   
   
-<H1>Before running this repo on your own repository:</H1>
+<H1>Before running this repo on your own environment:</H1>
 
 <UL>
 <LI>Update the jenkinsfile to specify your own GitHub Repo URL and name (1 location)
